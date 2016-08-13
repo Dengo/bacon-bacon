@@ -3,14 +3,46 @@
  *
  */
 
+ body {
+    background-color: $yellow;
+ }
+
 .navbar-brand {
   position: relative;
   padding-left: 50px;
 }
 
+.navbar-default .navbar-nav > li > a{
+    font-family: $font-family-pontiac;
+    font-size: 1.5em;
+    color: $dark;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: $pink;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #33e0ff;
+  color: $teal;
   background-color: transparent;
+}
+
+.btn-lg {
+    padding: 12px 30px;
+    font-family: $font-family-pontiac;
+    font-size: 1.6vw;
+    line-height: 1.5;
+    border-radius: 500px;
+    color: $dark;
+    background-color: $teal;
+    border-color: $teal;
+
+}
+
+.btn-lg:hover {
+    color: $dark;
+    background-color: $pink;
+    border-color: $pink;
 }

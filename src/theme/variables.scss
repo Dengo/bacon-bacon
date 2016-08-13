@@ -6,9 +6,17 @@
  *
  */
 
+@import url("//hello.myfonts.net/count/31d03c");
+@font-face {font-family: 'PontiacInlineShadow';src: url('/webfonts/31D03C_0_0.eot');src: url('/webfonts/31D03C_0_0.eot?#iefix') format('/embedded-opentype'),url('/webfonts/31D03C_0_0.woff2') format('woff2'),url('/webfonts/31D03C_0_0.woff') format('woff'),url('/webfonts/31D03C_0_0.ttf') format('truetype');}
+
+
 // Custom Colors
 $cyan: #33e0ff;
 $humility: #777;
+$yellow: #FFFCDC;
+$teal: #41FBBB;
+$pink: #FF6AC1;
+$dark: #000000;
 
 // Bootstrap Variables
 $brand-primary: darken(#428bca, 6.5%);
@@ -21,4 +29,5 @@ $brand-info: #5bc0de;
 $text-color: #333;
 
 $font-size-base: 14px;
-$font-family-sans-serif: "Helvetica Neue", Helvetica, sans-serif;
+$font-family-pontiac: PontiacInlineShadow;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
